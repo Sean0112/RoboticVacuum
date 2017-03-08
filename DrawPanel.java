@@ -40,7 +40,10 @@ public class DrawPanel extends JPanel {
         f3.drawFurniture(g); fs.add(f3);
         Furniture f4 = new Furniture(110,210,80,80);
         f4.drawFurniture(g); fs.add(f4);
+        Furniture f5 = new Furniture(10,410,80,80);
+        f5.drawFurniture(g); fs.add(f5);
 
+        g.setColor(Color.black);
         rv.drawRoboticVacuum(g);
         rv.moveRoboticVacuum(fs);
     }
